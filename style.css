@@ -17,35 +17,38 @@ body {
 .quiz-container {
   border: 1px solid #247291;
   width: 500px;
-  padding-top: 20px;
   border-radius: 5px;
   box-shadow: 0 5px 10px 5px #24729110;
   background-color: #f5f9ee;
 }
 
 .quiz-header {
-  display: flex;
-  flex-direction: column;
+  padding: 20px;
 }
 
 h2 {
   text-align: center;
   margin: 0;
+  padding: 20px;
 }
 
 ul {
-  list-style: none;
-  padding-left: 10px;
+  list-style-type: none;
+  padding: 0;
 }
 
 ul li {
-  margin: 10px;
+  margin: 10px 0;
+}
+
+ul li label {
+  cursor: pointer;
 }
 
 button {
   border: none;
-  margin: 0;
   background-color: #247291;
+  display: block;
   color: #f5f9ee;
   padding: 10px;
   width: 100%;
